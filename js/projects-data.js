@@ -1,0 +1,330 @@
+/**
+ * SYNDESIS — Inline project data.
+ * Loaded before main.js so project pages work under file:// with no server.
+ */
+window.__PROJECTS__ = [
+  {
+    "id": "secant",
+    "logo": "SC",
+    "title": "SECANT",
+    "summary": "Secure edge computing architecture for critical national infrastructure with quantum-safe cryptography and AI-powered threat detection capabilities.",
+    "tags": ["Edge", "PQC", "AI", "EU-funded"],
+    "role": "Technical Lead",
+    "status": "Ongoing",
+    "subtitle": "Secure Edge Computing Architecture for National Infrastructure",
+    "funding": "Horizon Europe",
+    "duration": "2024\u20132027 (36 months)",
+    "budget": "\u20ac4.2M",
+    "challenge": "Critical national infrastructure systems face increasing cybersecurity threats while requiring real-time processing capabilities. Traditional cloud-based security solutions introduce unacceptable latency for time-sensitive operations. Additionally, future quantum computers pose a significant threat to current cryptographic protections.",
+    "approach": "SECANT develops a novel edge computing architecture that combines quantum-safe cryptography with AI-powered threat detection at the network edge. The platform deploys lightweight post-quantum cryptographic algorithms on edge nodes while maintaining real-time performance requirements. Machine learning models analyze traffic patterns locally to detect anomalies without transmitting sensitive data to centralized servers.",
+    "results": [
+      "15% reduction in threat detection latency compared to cloud-based solutions",
+      "Successfully deployed PQC algorithms with <5ms performance overhead",
+      "AI models achieving 98.7% accuracy in detecting zero-day attacks",
+      "Pilot deployment across 12 critical infrastructure sites in 5 EU countries",
+      "3 patent applications filed for novel crypto-agile edge architectures"
+    ],
+    "technologies": ["Post-Quantum Cryptography (NIST PQC)", "Edge AI & Machine Learning", "Kubernetes Edge Orchestration", "Hardware Security Modules", "MQTT & Secure Messaging", "TensorFlow Lite"],
+    "partners": ["NCSR Demokritos (Greece)", "Fraunhofer Institute (Germany)", "Politecnico di Milano (Italy)", "Siemens AG (Germany)", "Thales Group (France)", "Energy Operator (Spain)"],
+    "publications": [
+      {"title": "Lightweight PQC for Edge Computing: Performance Analysis", "venue": "IEEE Conference on Communications and Network Security 2025", "link": "#"},
+      {"title": "Federated Threat Intelligence in Critical Infrastructure", "venue": "ACM Transactions on Cyber-Physical Systems 2024", "link": "#"},
+      {"title": "Crypto-Agile Edge Architectures: Design Patterns", "venue": "European Symposium on Research in Computer Security 2024", "link": "#"}
+    ]
+  },
+  {
+    "id": "qrange",
+    "logo": "QR",
+    "title": "QRANGE",
+    "summary": "Pan-European quantum-safe communication network deployment with QKD integration across metropolitan and long-distance fiber infrastructure.",
+    "tags": ["QKD", "Networking", "EU-funded"],
+    "role": "Coordinator",
+    "status": "Ongoing",
+    "subtitle": "Quantum-Safe Communication Network Across Europe",
+    "funding": "Horizon Europe \u2013 Digital Infrastructure",
+    "duration": "2023\u20132026 (42 months)",
+    "budget": "\u20ac8.5M",
+    "challenge": "European critical communications infrastructure relies on cryptographic protocols vulnerable to quantum computer attacks. Current QKD deployments are limited to point-to-point links with range restrictions. A pan-European quantum-safe network requires integration of QKD with existing fiber infrastructure and interoperability between different QKD vendors.",
+    "approach": "QRANGE establishes a multi-country quantum key distribution network connecting government, research, and critical infrastructure entities. The project integrates trusted node architectures to extend QKD range beyond single fiber spans while developing standardized interfaces for vendor interoperability. A hybrid approach combines QKD with PQC algorithms to provide defense-in-depth security.",
+    "results": [
+      "Operational QKD links deployed across 8 European cities",
+      "400km+ total network reach using trusted node architecture",
+      "Interoperability demonstrated between 4 different QKD vendors",
+      "Secure key distribution rate: 10 Mb/s average, 50 Mb/s peak",
+      "Integration with existing governmental secure communication systems"
+    ],
+    "technologies": ["Quantum Key Distribution (BB84, CV-QKD)", "Trusted Node Architecture", "PQC Hybrid Encryption", "SDN Network Orchestration", "Key Management Systems", "Optical Fiber Infrastructure"],
+    "partners": ["Telecom Italia (Italy)", "Orange S.A. (France)", "AIT Austrian Institute of Technology (Austria)", "University of Geneva (Switzerland)", "ID Quantique (Switzerland)", "Toshiba Europe (UK)", "National Cybersecurity Authority (Greece)"],
+    "publications": [
+      {"title": "Trusted Node QKD Networks: Security Analysis and Performance", "venue": "Nature Communications 2025", "link": "#"},
+      {"title": "Vendor-Agnostic QKD Network Management", "venue": "IEEE/OSA Journal of Lightwave Technology 2024", "link": "#"}
+    ]
+  },
+  {
+    "id": "medihub",
+    "logo": "MH",
+    "title": "MediHub AI",
+    "summary": "Federated learning platform for multi-hospital clinical decision support, enabling privacy-preserving AI model training on distributed health data.",
+    "tags": ["Digital Health", "AI", "Privacy", "EU-funded"],
+    "role": "Partner",
+    "status": "Completed",
+    "subtitle": "Federated Learning for Clinical Decision Support",
+    "funding": "Horizon 2020",
+    "duration": "2020\u20132023 (36 months)",
+    "budget": "\u20ac5.1M",
+    "challenge": "Hospitals hold vast amounts of patient data that could dramatically improve AI diagnostic models, but data privacy regulations prevent centralized aggregation. Traditional AI training requires pooling data in one place, creating privacy, legal, and security risks.",
+    "approach": "MediHub AI implements a federated learning framework that trains AI models across multiple hospitals without sharing raw patient data. Each hospital trains locally and shares only encrypted model updates, which are aggregated into a global model. Differential privacy techniques add noise to prevent reconstruction of individual records.",
+    "results": [
+      "Federated model accuracy within 2% of centrally-trained equivalent",
+      "12 hospitals across 6 EU countries participating in federated training",
+      "European Health Innovation Award for privacy-preserving healthcare AI",
+      "Reduced diagnostic turnaround time by 30% in pilot sites",
+      "Full GDPR compliance with certified privacy audit"
+    ],
+    "technologies": ["Federated Learning", "Differential Privacy", "FHIR/HL7", "Docker", "Python / PyTorch", "GDPR Compliance Framework"],
+    "partners": ["University Hospital of Athens (Greece)", "Charit\u00e9 \u2013 Universit\u00e4tsmedizin Berlin (Germany)", "Karolinska Institutet (Sweden)", "Philips Healthcare (Netherlands)", "IBM Research Europe (UK)"],
+    "publications": [
+      {"title": "Privacy-Preserving Federated Learning for Clinical AI", "venue": "npj Digital Medicine 2023", "link": "#"}
+    ]
+  },
+  {
+    "id": "smartgrid",
+    "logo": "SG",
+    "title": "SmartGrid Edge",
+    "summary": "Real-time edge analytics platform for electricity grid optimization, renewable energy integration, and predictive maintenance of critical assets.",
+    "tags": ["IoT", "Edge", "AI", "EU-funded"],
+    "role": "Tech Provider",
+    "status": "Ongoing",
+    "subtitle": "Edge Analytics for Next-Generation Power Grids",
+    "funding": "Horizon Europe \u2013 Clean Energy",
+    "duration": "2023\u20132026 (36 months)",
+    "budget": "\u20ac6.3M",
+    "challenge": "Modern electricity grids face increased complexity from distributed renewable sources and bidirectional power flows. Centralized SCADA systems cannot respond fast enough to sub-second grid events, risking outages.",
+    "approach": "SmartGrid Edge deploys lightweight AI inference at substation level to predict grid faults, optimize load balancing, and detect anomalies in real time. Edge nodes process sensor data locally and communicate only aggregated alerts to the central management system.",
+    "results": [
+      "12% improvement in grid stability indices during pilot",
+      "Predictive maintenance reducing unplanned outages by 25%",
+      "Sub-100ms response time for fault isolation",
+      "Integration with 5 European transmission system operators",
+      "Renewable curtailment reduced by 8% through smart dispatch"
+    ],
+    "technologies": ["Edge AI", "IoT Sensors", "MQTT / AMQP", "Apache Kafka", "TensorFlow Lite", "IEC 61850"],
+    "partners": ["ELIA Group (Belgium)", "Enel Green Power (Italy)", "Siemens Smart Infrastructure (Germany)", "TU Delft (Netherlands)", "National Grid ESO (UK)"],
+    "publications": [
+      {"title": "Edge Intelligence for Real-Time Grid Fault Detection", "venue": "IEEE Transactions on Smart Grid 2024", "link": "#"}
+    ]
+  },
+  {
+    "id": "cryptoagile",
+    "logo": "CA",
+    "title": "CryptoAgile",
+    "summary": "Enterprise migration toolkit for post-quantum cryptography, featuring automated crypto-inventory discovery and risk assessment capabilities.",
+    "tags": ["PQC", "Enterprise", "EU-funded"],
+    "role": "Coordinator",
+    "status": "Completed",
+    "subtitle": "Enterprise Post-Quantum Migration Toolkit",
+    "funding": "Horizon 2020 \u2013 Cybersecurity",
+    "duration": "2021\u20132023 (30 months)",
+    "budget": "\u20ac3.8M",
+    "challenge": "Organizations rely on RSA and elliptic-curve cryptography that will be broken by sufficiently powerful quantum computers. Most enterprises lack visibility into where these algorithms are deployed across complex IT environments.",
+    "approach": "CryptoAgile provides automated scanning tools that discover cryptographic assets across networks, code repositories, and hardware. It assigns quantum risk scores, generates migration roadmaps, and provides crypto-agile middleware that can swap algorithms without downtime.",
+    "results": [
+      "Cryptographic asset discovery across 20+ enterprise pilot deployments",
+      "Average 60% reduction in time-to-migration-plan",
+      "Toolkit adopted by 3 national cybersecurity agencies",
+      "Open-source crypto-inventory scanner released with 2k+ GitHub stars",
+      "2 standards contributions to ETSI TC CYBER"
+    ],
+    "technologies": ["Static Code Analysis", "Network Scanning", "PQC Algorithms (NIST)", "Python", "REST API", "CI/CD Integration"],
+    "partners": ["ENISA (European Union Agency for Cybersecurity)", "BSI (Germany)", "Deutsche Telekom Security (Germany)", "NCC Group (UK)", "IBM Security (USA)"],
+    "publications": [
+      {"title": "Automated Crypto-Inventory for Enterprise PQC Migration", "venue": "IEEE Security & Privacy 2023", "link": "#"},
+      {"title": "Crypto-Agility: Architectural Patterns for Seamless Algorithm Replacement", "venue": "ACM CCS Workshop on Quantum-Safe Cryptography 2022", "link": "#"}
+    ]
+  },
+  {
+    "id": "telemed",
+    "logo": "TM",
+    "title": "TeleMed Secure",
+    "summary": "End-to-end encrypted telemedicine platform with quantum-safe communications, supporting remote consultations and patient monitoring workflows.",
+    "tags": ["Digital Health", "QKD", "Telehealth", "EU-funded"],
+    "role": "Partner",
+    "status": "Ongoing",
+    "subtitle": "Quantum-Safe Telemedicine for Remote Patient Care",
+    "funding": "Horizon Europe \u2013 Digital Health",
+    "duration": "2024\u20132027 (36 months)",
+    "budget": "\u20ac4.7M",
+    "challenge": "Telemedicine platforms transmit sensitive health data over public internet infrastructure using encryption vulnerable to future quantum attacks. Healthcare providers need long-term confidentiality guarantees for patient records.",
+    "approach": "TeleMed Secure replaces standard TLS with a hybrid PQC + QKD key exchange layer, ensuring that recorded consultations remain private even against future quantum adversaries. An AI-powered triage module assists clinicians with preliminary assessments before consultations.",
+    "results": [
+      "Quantum-safe video consultation deployed across 8 clinics",
+      "AI triage reducing non-urgent consultation load by 35%",
+      "< 50ms added latency from PQC handshake overhead",
+      "CE-marked medical device certification in progress",
+      "Patient satisfaction score: 4.6/5 in pilot"
+    ],
+    "technologies": ["PQC (CRYSTALS-Kyber)", "QKD Integration", "WebRTC", "FHIR R4", "AI Triage Models", "GDPR / HIPAA"],
+    "partners": ["Hellenic Ministry of Health (Greece)", "University of Amsterdam Medical Center (Netherlands)", "Ericsson Research (Sweden)", "ID Quantique (Switzerland)"],
+    "publications": []
+  },
+  {
+    "id": "aidefense",
+    "logo": "AD",
+    "title": "AI Defense Suite",
+    "summary": "Adversarial AI detection and mitigation platform for critical infrastructure, protecting against model poisoning and inference attacks.",
+    "tags": ["AI", "Security", "EU-funded"],
+    "role": "Coordinator",
+    "status": "Ongoing",
+    "subtitle": "Protecting AI Systems in Critical Infrastructure",
+    "funding": "Horizon Europe \u2013 AI Security",
+    "duration": "2024\u20132027 (36 months)",
+    "budget": "\u20ac5.5M",
+    "challenge": "As AI models are deployed in critical infrastructure (power grids, transport, water), adversaries are targeting the AI layer itself through model poisoning, adversarial examples, and model extraction attacks.",
+    "approach": "AI Defense Suite monitors ML models in production for distributional shifts, adversarial perturbations, and anomalous query patterns. It applies certified robustness techniques and provides incident response playbooks for AI-specific attack scenarios.",
+    "results": [
+      "Framework deployed protecting 6 critical infrastructure AI systems",
+      "Detection rate >95% for known adversarial attack families",
+      "False positive rate <1% in operational deployments",
+      "Threat intelligence feed covering 200+ adversarial attack patterns"
+    ],
+    "technologies": ["Adversarial ML Detection", "Model Monitoring", "Certified Robustness", "Python / MLflow", "Kubernetes", "SIEM Integration"],
+    "partners": ["ENISA (EU Cybersecurity Agency)", "NATO CCDCOE (Estonia)", "Bosch AI (Germany)", "University of Oxford (UK)"],
+    "publications": [
+      {"title": "Runtime Detection of Adversarial Attacks on Critical Infrastructure AI", "venue": "IEEE S&P 2025", "link": "#"}
+    ]
+  },
+  {
+    "id": "6gsec",
+    "logo": "6G",
+    "title": "6G SecureNet",
+    "summary": "Next-generation mobile network security framework integrating PQC and AI-driven anomaly detection for 6G deployments.",
+    "tags": ["6G", "PQC", "AI", "EU-funded"],
+    "role": "Partner",
+    "status": "Ongoing",
+    "subtitle": "Security Framework for 6G Mobile Networks",
+    "funding": "Horizon Europe \u2013 6G",
+    "duration": "2023\u20132027 (48 months)",
+    "budget": "\u20ac12.0M",
+    "challenge": "6G networks will underpin critical societal functions but face expanded attack surfaces from network slicing, open RAN architectures, and AI-native design. Current 5G security protocols are not quantum-safe.",
+    "approach": "6G SecureNet designs security-by-design protocols for the 6G control plane, integrating PQC into key agreement and authentication procedures. AI anomaly detection identifies novel attack patterns across the heterogeneous 6G radio access network.",
+    "results": [
+      "PQC integration demonstrated in O-RAN compliant testbed",
+      "AI anomaly detection achieving 97% accuracy in lab trials",
+      "Security architecture contributed to 3GPP standardization",
+      "Interoperability tested with 4 equipment vendors"
+    ],
+    "technologies": ["O-RAN", "PQC (NIST Round 4)", "AI/ML Anomaly Detection", "5G NR / 6G Protocols", "Network Slicing Security"],
+    "partners": ["Ericsson (Sweden)", "Nokia Bell Labs (Finland)", "Orange Labs (France)", "TU Berlin (Germany)", "University of Surrey (UK)"],
+    "publications": [
+      {"title": "Quantum-Safe Authentication for 6G Networks", "venue": "IEEE Communications Magazine 2024", "link": "#"}
+    ]
+  },
+  {
+    "id": "healthchain",
+    "logo": "HC",
+    "title": "HealthChain",
+    "summary": "Blockchain-based health data sharing platform with privacy-preserving smart contracts and GDPR-compliant access control mechanisms.",
+    "tags": ["Digital Health", "Blockchain", "Privacy", "EU-funded"],
+    "role": "Technical Lead",
+    "status": "Completed",
+    "subtitle": "Blockchain for Secure Health Data Exchange",
+    "funding": "Horizon 2020",
+    "duration": "2019\u20132022 (36 months)",
+    "budget": "\u20ac4.4M",
+    "challenge": "Cross-border health data sharing in Europe is hampered by fragmented consent management and incompatible access control systems. GDPR compliance adds further complexity to multi-party data flows.",
+    "approach": "HealthChain implements a permissioned blockchain to record patient consent and data access events immutably. Zero-knowledge proofs allow data consumers to verify eligibility conditions without revealing personal attributes, enabling GDPR-compliant cross-border analytics.",
+    "results": [
+      "Cross-border health data exchange demonstrated across 5 EU countries",
+      "Zero-knowledge consent verification reducing data exposure",
+      "250,000+ consent transactions recorded on the ledger",
+      "Formal GDPR compliance certification obtained",
+      "Platform adopted by one national health authority for pilot operation"
+    ],
+    "technologies": ["Hyperledger Fabric", "Zero-Knowledge Proofs", "FHIR R4", "Smart Contracts", "Decentralized Identity (DID)", "GDPR"],
+    "partners": ["Hellenic Ministry of Digital Governance (Greece)", "KU Leuven (Belgium)", "IBM Research Zurich (Switzerland)", "Atos (France)"],
+    "publications": [
+      {"title": "GDPR-Compliant Consent Management via Blockchain and ZKP", "venue": "Journal of Biomedical Informatics 2022", "link": "#"}
+    ]
+  },
+  {
+    "id": "edgevision",
+    "logo": "EV",
+    "title": "EdgeVision",
+    "summary": "Distributed computer vision pipeline for smart city surveillance with edge processing, reducing bandwidth and enabling real-time alerts.",
+    "tags": ["Edge", "AI", "IoT", "EU-funded"],
+    "role": "Partner",
+    "status": "Completed",
+    "subtitle": "Edge Computer Vision for Smart City Applications",
+    "funding": "Horizon 2020 \u2013 Smart Cities",
+    "duration": "2020\u20132023 (36 months)",
+    "budget": "\u20ac3.9M",
+    "challenge": "Smart city camera networks generate terabytes of video data that cannot be economically streamed to central servers for processing. Real-time incident response requires sub-second detection at scale.",
+    "approach": "EdgeVision deploys quantized deep learning models on edge-capable cameras and microservers. Only event-triggered metadata and short clips are transmitted to central systems, reducing bandwidth by 95%. Federated analytics allow insights to be aggregated without sharing raw video.",
+    "results": [
+      "95% bandwidth reduction compared to cloud-only approach",
+      "Person re-identification across 500+ cameras in pilot city",
+      "Real-time crowd density estimation with <200ms latency",
+      "Privacy-by-design: no raw biometric data leaves edge nodes",
+      "Deployed in 3 European smart city pilots"
+    ],
+    "technologies": ["YOLOv8 / MobileNet", "TensorFlow Lite", "OpenCV", "MQTT", "Kubernetes Edge", "Federated Analytics"],
+    "partners": ["City of Athens (Greece)", "City of Bologna (Italy)", "Huawei European Research Center (Germany)", "Aalborg University (Denmark)"],
+    "publications": [
+      {"title": "Privacy-Preserving Edge Video Analytics for Smart Cities", "venue": "IEEE Internet of Things Journal 2023", "link": "#"}
+    ]
+  },
+  {
+    "id": "quantumsafe",
+    "logo": "QS",
+    "title": "QuantumSafe Finance",
+    "summary": "Post-quantum cryptography implementation for financial transaction systems, ensuring long-term security for digital payments and banking.",
+    "tags": ["PQC", "Finance", "EU-funded"],
+    "role": "Coordinator",
+    "status": "Completed",
+    "subtitle": "Post-Quantum Security for Financial Systems",
+    "funding": "EIC Pathfinder",
+    "duration": "2021\u20132024 (36 months)",
+    "budget": "\u20ac6.0M",
+    "challenge": "Financial institutions process trillions of euros in transactions protected by RSA and ECDSA signatures that will become vulnerable to quantum attacks. Migration timelines of 10\u201315 years mean action must begin immediately.",
+    "approach": "QuantumSafe Finance integrates NIST-standardized PQC signature algorithms (CRYSTALS-Dilithium, SPHINCS+) into banking middleware and payment card infrastructure. A gradual migration approach maintains backward compatibility during the transition period.",
+    "results": [
+      "PQC digital signatures integrated into ISO 20022 payment messages",
+      "Performance benchmarks within 5% of classical algorithms on HSMs",
+      "Migration blueprint adopted by 2 European central banks",
+      "Open-source PQC payment SDK released",
+      "ETSI standards contribution for financial PQC profiles"
+    ],
+    "technologies": ["CRYSTALS-Dilithium", "SPHINCS+", "HSM Integration", "ISO 20022", "Java / C++", "FIPS 140-3"],
+    "partners": ["European Central Bank (EU)", "Deutsche Bundesbank (Germany)", "Mastercard Europe (Belgium)", "Thales DIS (France)"],
+    "publications": [
+      {"title": "Post-Quantum Digital Signatures in Financial Messaging Systems", "venue": "Financial Cryptography and Data Security 2024", "link": "#"}
+    ]
+  },
+  {
+    "id": "iotshield",
+    "logo": "IS",
+    "title": "IoT Shield",
+    "summary": "Lightweight security framework for resource-constrained IoT devices, featuring quantum-resistant authentication and secure firmware updates.",
+    "tags": ["IoT", "PQC", "Security", "EU-funded"],
+    "role": "Tech Provider",
+    "status": "Ongoing",
+    "subtitle": "Quantum-Safe Security for Resource-Constrained IoT",
+    "funding": "Horizon Europe \u2013 IoT Security",
+    "duration": "2023\u20132026 (36 months)",
+    "budget": "\u20ac3.2M",
+    "challenge": "Billions of IoT devices with limited CPU, memory, and battery cannot run standard PQC algorithms. Long device lifetimes (10\u201320 years) mean they will be exposed to quantum threats long after deployment.",
+    "approach": "IoT Shield implements ultra-lightweight PQC primitives (CRYSTALS-Kyber and signature variants) optimized for ARM Cortex-M microcontrollers. A secure over-the-air firmware update mechanism allows algorithm agility across the device fleet as standards evolve.",
+    "results": [
+      "PQC key exchange running on 256KB RAM microcontrollers",
+      "OTA firmware update with cryptographic rollback protection",
+      "30% reduction in PQC cycle count vs. reference implementation",
+      "Certified under IEC 62443-4-2 Security Level 2",
+      "SDK adopted by 3 industrial IoT equipment manufacturers"
+    ],
+    "technologies": ["CRYSTALS-Kyber (lightweight)", "ARM Cortex-M", "FreeRTOS", "MQTT-SN", "Secure Boot", "IEC 62443"],
+    "partners": ["Infineon Technologies (Germany)", "IMEC (Belgium)", "Bosch IoT (Germany)", "University of Twente (Netherlands)"],
+    "publications": [
+      {"title": "Ultra-Lightweight PQC for Constrained IoT: Implementation and Benchmarks", "venue": "ACM SenSys 2024", "link": "#"}
+    ]
+  }
+];
