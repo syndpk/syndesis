@@ -113,19 +113,11 @@
             </div>
 
             <!-- Map placeholder -->
-             <div class="box">
-
-    <div class="contact-map-placeholder" id="mapPlaceholder">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-        <circle cx="12" cy="10" r="3"/>
-      </svg>
-      <span>Map View</span>
-    </div>
-
-    <iframe id="company-map"></iframe>
-
-  </div>
+            <div class="contact-map-placeholder" aria-label="Map view placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Map View</span>
+            </div>
+          </div>
 
           <!-- RIGHT: Contact Form -->
           <div class="contact-form-section">
@@ -264,15 +256,5 @@ form.addEventListener("submit", async function(e) {
   } catch (error) {
     alert("Σφάλμα σύνδεσης. Προσπαθήστε ξανά.");
   }
-});
-const placeholder=document.getElementById("mapPlaceholder");
-const map=document.getElementById("company-map");
-
-placeholder.addEventListener("click",function(){
-  if(!map.src){
-    map.src="https://www.google.com/maps?q=Πατριάρχου+Γρηγορίου+και+Νεαπόλεως+27+Αγία+Παρασκευή&output=embed";
-  }
-  map.style.display="block";
-  placeholder.style.display="none";
 });
 </script>
