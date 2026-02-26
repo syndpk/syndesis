@@ -1,0 +1,1 @@
+Syndesis Brand logo assets
