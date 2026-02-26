@@ -113,76 +113,15 @@
             </div>
 
             <!-- Map placeholder -->
-            <div class="contact-map">
-
-  <!-- PLACEHOLDER -->
-  <div class="contact-map-placeholder" id="mapPlaceholder">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-         stroke-linecap="round" stroke-linejoin="round"
-         width="50" height="50">
-      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-      <circle cx="12" cy="10" r="3"/>
-    </svg>
-    <span>Προβολή Χάρτη</span>
-  </div>
-
-  <!-- MAP -->
+            <div style="width:100%; max-width:1000px; margin:auto;">
   <iframe
-    id="googleMap"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
+    src="https://www.google.com/maps?q=Patriarchou+Grigoriou+E+%26+Neapoleos+27,+Agia+Paraskevi,+Attica,+Greece&output=embed"
+    width="100%"
+    height="420"
+    style="border:0; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,0.08);"
+    loading="lazy">
   </iframe>
-
 </div>
-
-<style>
-.contact-map {
-  width: 100%;
-  height: 420px;
-  position: relative;
-}
-
-.contact-map-placeholder {
-  width: 100%;
-  height: 100%;
-  background: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  font-size: 18px;
-  color: #444;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.contact-map-placeholder:hover {
-  background: #e6e6e6;
-}
-
-#googleMap {
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: none;
-  border-radius: 10px;
-}
-</style>
-
-<script>
-document.getElementById("mapPlaceholder").addEventListener("click", function () {
-  const map = document.getElementById("googleMap");
-
-  if (!map.src) {
-    map.src = "https://www.google.com/maps?q=Πατριάρχου+Γρηγορίου+και+Νεαπόλεως+27+Αγία+Παρασκευή&output=embed";
-  }
-
-  map.style.display = "block";
-  this.style.display = "none";
-});
-</script>
 
           <!-- RIGHT: Contact Form -->
           <div class="contact-form-section">
