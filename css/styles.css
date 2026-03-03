@@ -411,11 +411,31 @@ ul, ol { list-style: none; }
   border-radius: var(--radius-xl);
   padding: 2rem;
   color: var(--white);
+  width: 100%;
+  box-sizing: border-box;
 }
-.quantum-ribbon-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem; }
-.quantum-ribbon-header svg { width: 32px; height: 32px; color: var(--purple-300); }
+
+.quantum-ribbon-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.quantum-ribbon-header svg {
+  width: 32px;
+  height: 32px;
+  color: var(--purple-300);
+}
+
 .quantum-ribbon h3 { font-size: 1.5rem; }
-.quantum-ribbon p { color: #e5e7eb; line-height: 1.7; max-width: 64rem; }
+
+.quantum-ribbon p {
+  color: #e5e7eb;
+  line-height: 1.7;
+  max-width: none;   /* changed */
+  width: 100%;       /* added */
+}
 
 /* =====================================================================
    PROJECT CARDS
