@@ -128,10 +128,39 @@ ul, ol { list-style: none; }
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--gray-600);
-  transition: color 0.2s;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
-.nav-menu a:hover,
-.nav-menu a.active { color: var(--blue-900); }
+
+.nav-menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: darkred;
+  transition: width 0.25s ease;
+}
+
+/* hover effect */
+.nav-menu a:hover {
+  color: darkred;
+}
+
+.nav-menu a:hover::after {
+  width: 100%;
+}
+
+/* active page */
+.nav-menu a.active {
+  color: darkred;
+}
+
+.nav-menu a.active::after {
+  width: 100%;
+}
 
 @media (min-width: 1024px) {
   .nav-menu { display: flex; }
