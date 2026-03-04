@@ -315,7 +315,7 @@ ul, ol { list-style: none; }
 
 .btn-secondary {
   padding: 0.875rem 2rem;
-  background: transparent;
+  background: darkred;
   border: 2px solid var(--white);
   color: var(--white);
   border-radius: var(--radius-full);
