@@ -888,7 +888,7 @@ ul, ol { list-style: none; }
 .contact-social-link:hover { background: var(--blue-900); color: var(--white); }
 .contact-social-link svg { width: 20px; height: 20px; }
 .contact-map-placeholder {
-  margin-top: 3rem;
+  margin-top: 3rem;height: 16rem;
   display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 0.5rem;
 }
 .contact-map-placeholder svg { width: 48px; height: 48px; color: var(--gray-400); }
