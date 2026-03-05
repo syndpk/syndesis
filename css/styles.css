@@ -889,10 +889,7 @@ ul, ol { list-style: none; }
 .contact-social-link svg { width: 20px; height: 20px; }
 .contact-map-placeholder {
   margin-top: 3rem;
-  background: var(--gray-100); border: 1px solid var(--gray-200);
-  border-radius: var(--radius-xl); height: 16rem;
   display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 0.5rem;
-  color: var(--gray-500);
 }
 .contact-map-placeholder svg { width: 48px; height: 48px; color: var(--gray-400); }
 
