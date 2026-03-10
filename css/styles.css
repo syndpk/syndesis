@@ -1123,6 +1123,18 @@ ul, ol { list-style: none; }
   object-fit: contain;
 }
 
+.network-partner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.network-partner-logo:hover img {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
 /* =====================================================================
    GET IN TOUCH (home page contact form section)
    ===================================================================== */
