@@ -409,6 +409,7 @@
         </div>
         <div class="swiper network-slider">
          <div class="swiper-wrapper">
+
            <div class="swiper-slide network-partner-card">
             <div class="network-partner-abbr" aria-hidden="true">NE</div>
             <span class="network-partner-name">NetworldEurope</span>
@@ -437,6 +438,7 @@
             <div class="network-partner-abbr" aria-hidden="true">QUI</div>
             <span class="network-partner-name">QUIC</span>
            </div>
+
           </div>
          </div>
         
@@ -638,6 +640,20 @@ form.addEventListener("submit", async function(e) {
     }
   } catch (error) {
     console.log(error);
+  }
+});
+
+
+const swiper = new Swiper('.network-slider', {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 2500,
+  },
+  breakpoints: {
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 4 }
   }
 });
 </script>
