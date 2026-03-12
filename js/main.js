@@ -86,10 +86,7 @@
       return;
     }
 
-    if (count) {
-      const label = activeTab === 'Ongoing' ? 'ongoing' : 'completed';
-      count.textContent = `Showing ${filtered.length} ${label} project${filtered.length !== 1 ? 's' : ''}`;
-    }
+    
 
     grid.innerHTML = filtered.map(p => {
       const statusClass = p.status === 'Ongoing' ? 'badge-ongoing' : 'badge-completed';
