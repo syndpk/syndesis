@@ -105,7 +105,7 @@
           </div>
           <div class="project-card-tags">${tagChips}</div>
           <a href="project-details.html?id=${p.id}" class="project-card-cta">
-            Read case study ${arrowRight}
+            View Project ${arrowRight}
           </a>
         </article>`;
     }).join('');
