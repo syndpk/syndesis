@@ -4,13 +4,14 @@
  */
 window.__PROJECTS__ = [
   {
-    "id": "EROS – 6GPath",
-    "logo": "EROS",
-    "title": "EROS – 6GPath",
-    "summary": "EROS develops trusted robotic assistants for hospitality, healthcare, and smart city environments by combining edge AI, domain-specific multimodal datasets, and quantum-safe communications on a 5G/6G testbed.",
-    "tags": ["Edge AI", "PQC", "Robotics", "5G / 6G", "Service Hospitality"],
-    
-    "subtitle": "Secure Edge AI Robotics for Smart City, Hospitality, and Healthcare Services",
+    "id": "secant",
+    "logo": "SC",
+    "title": "SECANT",
+    "summary": "Secure edge computing architecture for critical national infrastructure with quantum-safe cryptography and AI-powered threat detection capabilities.",
+    "tags": ["Edge", "PQC", "AI", "EU-funded"],
+    "role": "Technical Lead",
+    "status": "Ongoing",
+    "subtitle": "Secure Edge Computing Architecture for National Infrastructure",
     "funding": "Horizon Europe",
     "duration": "2024\u20132027 (36 months)",
     "budget": "\u20ac4.2M",
