@@ -99,10 +99,6 @@
           <div class="project-card-logo">${p.logo}</div>
           <h3>${p.title}</h3>
           <p class="project-card-summary">${p.summary}</p>
-          <div class="project-card-badges">
-            ${p.role ? `<span class="badge badge-role">${p.role}</span>` : ''}
-            <span class="badge ${statusClass}">${p.status}</span>
-          </div>
           <div class="project-card-tags">${tagChips}</div>
           <a href="project-details.html?id=${p.id}" class="project-card-cta">
             View Project ${arrowRight}
