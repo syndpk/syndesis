@@ -4,32 +4,32 @@
  */
 window.__PROJECTS__ = [
   {
-    "id": "secant",
-    "logo": "SC",
-    "title": "SECANT",
-    "summary": "Secure edge computing architecture for critical national infrastructure with quantum-safe cryptography and AI-powered threat detection capabilities.",
-    "tags": ["Edge", "PQC", "AI", "EU-funded"],
+    "id": "EROS – 6GPath",
+    "logo": "EROS",
+    "title": "EROS – 6GPath",
+    "summary": "EROS develops trusted robotic assistants for hospitality, healthcare, and smart city environments by combining edge AI, domain-specific multimodal datasets, and quantum-safe communications on a 5G/6G testbed.",
+    "tags": ["Edge AI", "Robotics", "5G/6G","PQC", "Service Hospitality"],
     "role": "Partner",
     "status": "Ongoing",
-    "subtitle": "Secure Edge Computing Architecture for National Infrastructure",
+    "subtitle": "Secure Edge AI Robotics for Smart City, Hospitality, and Healthcare Services",
     "funding": "Horizon Europe",
-    "duration": "2024\u20132027 (36 months)",
+    "duration": "02-10 / 2026 (9 months)",
     "budget": "\u20ac4.2M",
-    "challenge": "Critical national infrastructure systems face increasing cybersecurity threats while requiring real-time processing capabilities. Traditional cloud-based security solutions introduce unacceptable latency for time-sensitive operations. Additionally, future quantum computers pose a significant threat to current cryptographic protections.",
-    "approach": "SECANT develops a novel edge computing architecture that combines quantum-safe cryptography with AI-powered threat detection at the network edge. The platform deploys lightweight post-quantum cryptographic algorithms on edge nodes while maintaining real-time performance requirements. Machine learning models analyze traffic patterns locally to detect anomalies without transmitting sensitive data to centralized servers.",
+    "Project Overview": "EROS addresses the growing demand for intelligent service robots in environments such as municipal buildings, hospitals, transport hubs, and hotels. The project focuses on overcoming the limitations of cloud-only AI processing by combining edge-based intelligence, domain-specific multimodal datasets, and trusted communications, enabling robots to provide reliable, privacy-aware, and human-like services in real-world settings.",
+    "approach": "Secure and trustworthy robotic assistants for real-time service delivery.",
     "results": [
-      "15% reduction in threat detection latency compared to cloud-based solutions",
-      "Successfully deployed PQC algorithms with <5ms performance overhead",
-      "AI models achieving 98.7% accuracy in detecting zero-day attacks",
-      "Pilot deployment across 12 critical infrastructure sites in 5 EU countries",
-      "3 patent applications filed for novel crypto-agile edge architectures"
+      "Development and integration of edge AI intelligence for robotic assistants",
+      "Support for domain-specific multimodal datasets in hospitality and healthcare scenarios",
+      "Research and integration of post-quantum and trusted communication mechanisms",
+      "Deployment and validation of robotic workflows on a 5G/6G-enabled testbed",
+      "Contribution to secure, low-latency, real-time human–robot interaction use cases"
     ],
-    "technologies": ["Post-Quantum Cryptography (NIST PQC)", "Edge AI & Machine Learning", "Kubernetes Edge Orchestration", "Hardware Security Modules", "MQTT & Secure Messaging", "TensorFlow Lite"],
-    "partners": ["NCSR Demokritos (Greece)", "Fraunhofer Institute (Germany)", "Politecnico di Milano (Italy)", "Siemens AG (Germany)", "Thales Group (France)", "Energy Operator (Spain)"],
+    "technologies": ["Edge AI", "Robotics", "LLMs", "PQC", "5G/6G MEC", "Smart City", "Service Hospitality"],    
+    "partners": ["Hospitals", "Hotels", "Municipal Buildings", "Transport Hubs", "Tsmart City Scenarios"],
+    "Validation setting": ["OTE 5G/6G testbed in Athens with edge cloud, network slicing and MEC capabilities"],
     "publications": [
-      {"title": "Lightweight PQC for Edge Computing: Performance Analysis", "venue": "IEEE Conference on Communications and Network Security 2025", "link": "#"},
-      {"title": "Federated Threat Intelligence in Critical Infrastructure", "venue": "ACM Transactions on Cyber-Physical Systems 2024", "link": "#"},
-      {"title": "Crypto-Agile Edge Architectures: Design Patterns", "venue": "European Symposium on Research in Computer Security 2024", "link": "#"}
+      {"title": "EROS 6G PATH", "venue": "6G Pilots and Trials Through Europe", "https://6gpath.eu/ ": "#"},
+     
     ]
   },
   {
