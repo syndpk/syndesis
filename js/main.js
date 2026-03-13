@@ -258,20 +258,6 @@
                       <div class="project-hero-meta-value">${p.funding}</div>
                     </div>
                   </div>
-                  <div class="project-hero-meta-item">
-                    ${icons.users}
-                    <div>
-                      <div class="project-hero-meta-label">Role</div>
-                      <div class="project-hero-meta-value">${p.role}</div>
-                    </div>
-                  </div>
-                  <div class="project-hero-meta-item">
-                    ${icons.mapPin}
-                    <div>
-                      <div class="project-hero-meta-label">Status</div>
-                      <div class="project-hero-meta-value">${p.status}</div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
