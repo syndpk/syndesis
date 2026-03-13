@@ -15,7 +15,7 @@ window.__PROJECTS__ = [
     "funding": "Horizon Europe",
     "duration": "02-10 / 2026 (9 months)",
     "budget": "\u20ac4.2M",
-    "Project Overview": "EROS addresses the growing demand for intelligent service robots in environments such as municipal buildings, hospitals, transport hubs, and hotels. The project focuses on overcoming the limitations of cloud-only AI processing by combining edge-based intelligence, domain-specific multimodal datasets, and trusted communications, enabling robots to provide reliable, privacy-aware, and human-like services in real-world settings.",
+    "The Challenge": "EROS addresses the growing demand for intelligent service robots in environments such as municipal buildings, hospitals, transport hubs, and hotels. The project focuses on overcoming the limitations of cloud-only AI processing by combining edge-based intelligence, domain-specific multimodal datasets, and trusted communications, enabling robots to provide reliable, privacy-aware, and human-like services in real-world settings.",
     "approach": "Secure and trustworthy robotic assistants for real-time service delivery.",
     "results": [
       "Development and integration of edge AI intelligence for robotic assistants",
