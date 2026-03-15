@@ -33,27 +33,27 @@ window.__PROJECTS__ = [
     ]
   },
   {
-    "id": "qrange",
-    "logo": "QR",
-    "title": "QRANGE",
-    "summary": "Pan-European quantum-safe communication network deployment with QKD integration across metropolitan and long-distance fiber infrastructure.",
-    "tags": ["QKD", "Networking", "EU-funded"],
+    "id": "RuralMed-AI",
+    "logo": "RMAI",
+    "title": "RuralMed-AI",
+    "summary": "Edge-Enabled AI Decision Support for Rural Healthcare",
+    "tags": ["Digital Health", "Edge AI", "LLM", "Rural Care", "Decision Support"],
     "role": "Partner",
     "status": "Ongoing",
-    "subtitle": "Quantum-Safe Communication Network Across Europe",
+    "subtitle": "Intelligent, edge-enabled healthcare support for rural and remote medical environments.",
     "funding": "Horizon Europe \u2013 Digital Infrastructure",
-    "duration": "2023\u20132026 (42 months)",
+    "duration": "03-12/2026 (10 months)",
     "budget": "\u20ac8.5M",
-    "challenge": "European critical communications infrastructure relies on cryptographic protocols vulnerable to quantum computer attacks. Current QKD deployments are limited to point-to-point links with range restrictions. A pan-European quantum-safe network requires integration of QKD with existing fiber infrastructure and interoperability between different QKD vendors.",
-    "approach": "QRANGE establishes a multi-country quantum key distribution network connecting government, research, and critical infrastructure entities. The project integrates trusted node architectures to extend QKD range beyond single fiber spans while developing standardized interfaces for vendor interoperability. A hybrid approach combines QKD with PQC algorithms to provide defense-in-depth security.",
+    "challenge": "RuralMed-AI addresses a key challenge in Europe’s rural and remote regions: supporting general practitioners who work with limited connectivity, high workloads, and fragmented patient information. Building on Syndesis’ iWelli healthcare ecosystem and the EdgeMind AI platform, the pilot develops an AI-powered decision-support system tailored to healthcare environments where connectivity, continuity of care, and data sovereignty are critical.",
+    
     "results": [
-      "Operational QKD links deployed across 8 European cities",
-      "400km+ total network reach using trusted node architecture",
-      "Interoperability demonstrated between 4 different QKD vendors",
-      "Secure key distribution rate: 10 Mb/s average, 50 Mb/s peak",
-      "Integration with existing governmental secure communication systems"
+      "Development of AI-driven triage and prioritization workflows for rural healthcare settings",
+      "Integration of LLM-based patient summarization from fragmented medical records",
+      "Deployment of offline-first, edge-enabled AI inference for low-connectivity environments",
+      "Adaptation of the iWelli ecosystem and EdgeMind platform to rural clinical use cases",
+      "Validation of human-centric AI support in collaboration with local healthcare professionals and municipalities"
     ],
-    "technologies": ["Quantum Key Distribution (BB84, CV-QKD)", "Trusted Node Architecture", "PQC Hybrid Encryption", "SDN Network Orchestration", "Key Management Systems", "Optical Fiber Infrastructure"],
+    "technologies": ["Digital Health", "Edge AI", "LLM", "Clinical Decision Support", "Offline-First GDPR Rural Care"],
     "partners": ["Telecom Italia (Italy)", "Orange S.A. (France)", "AIT Austrian Institute of Technology (Austria)", "University of Geneva (Switzerland)", "ID Quantique (Switzerland)", "Toshiba Europe (UK)", "National Cybersecurity Authority (Greece)"],
     "publications": [
       {"title": "Trusted Node QKD Networks: Security Analysis and Performance", "venue": "Nature Communications 2025", "link": "#"},
