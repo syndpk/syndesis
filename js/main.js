@@ -277,17 +277,7 @@
         </div>
       </section>
 
-      <!-- Approach -->
-      <section class="project-detail-section section-bg-gray">
-        <div class="container">
-          <div class="project-detail-max">
-            <h2>Project Context</h2>
-            <p>${p.approach}</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Results -->
+            <!-- Results -->
       <section class="project-detail-section section-bg-white">
         <div class="container">
           <div class="project-detail-max">
@@ -311,6 +301,16 @@
             <div class="tech-tags">
               ${p.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('')}
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Approach -->
+      <section class="project-detail-section section-bg-gray">
+        <div class="container">
+          <div class="project-detail-max">
+            <h2>Project Context</h2>
+            <p>${p.approach}</p>
           </div>
         </div>
       </section>
