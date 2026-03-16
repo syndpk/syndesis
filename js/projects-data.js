@@ -26,8 +26,8 @@ window.__PROJECTS__ = [
       "Development and integration of <strong>edge AI intelligence</strong> for robotic assistants",
       "Support for <strong>domain-specific multimodal datasets</strong> in hospitality and healthcare scenarios",
       "Research and integration of <strong>post-quantum and trusted communication mechanisms</strong>",
-      "Deployment and validation of robotic workflows on a 5G/6G-enabled testbed",
-      "Contribution to secure, low-latency, real-time human–robot interaction use cases"
+      "Deployment and validation of robotic workflows on a <strong>5G/6G-enabled testbed</strong>",
+      "Contribution to <strong>secure, low-latency, real-time human–robot interaction</strong> use cases"
     ],
     "technologies": ["Edge AI", "Robotics", "LLMs", "PQC", "5G/6G MEC", "Smart City", "Service Hospitality"],    
     "partners": ["Hospitals", "Hotels", "Municipal Buildings", "Transport Hubs", "Tsmart City Scenarios"],
