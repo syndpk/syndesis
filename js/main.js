@@ -315,48 +315,6 @@
         </div>
       </section>
 
-      /*
-      <!-- Partners -->
-      <section class="project-detail-section section-bg-white">
-        <div class="container">
-          <div class="project-detail-max">
-            <h2>Metadata</h2>
-            <div class="partners-grid">
-              ${p.partners.map(partner => `
-                <div class="partner-card">
-                  ${icons.users}
-                  <span>${partner}</span>
-                </div>`).join('')}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      ${p.publications && p.publications.length > 0 ? `
-      <!-- Publications -->
-      <section class="project-detail-section section-bg-gray">
-        <div class="container">
-          <div class="project-detail-max">
-            <h2>Publications</h2>
-            <div class="publications-list">
-              ${p.publications.map(pub => `
-                <div class="pub-card">
-                  <div class="pub-card-inner">
-                    <div class="pub-left">
-                      ${icons.file}
-                      <div>
-                        <div class="pub-title">${pub.title}</div>
-                        <div class="pub-venue">${pub.venue}</div>
-                      </div>
-                    </div>
-                    <a href="${pub.link}" class="pub-ext" aria-label="External link">${icons.externalLink}</a>
-                  </div>
-                </div>`).join('')}
-            </div>
-          </div>
-        </div>
-      </section>` : ''}
-*/
       <!-- CTA -->
       <section class="section section-bg-dark">
         <div class="container section-cta-dark">
