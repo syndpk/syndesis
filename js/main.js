@@ -271,7 +271,7 @@
       <section class="project-detail-section section-bg-white">
         <div class="container">
           <div class="project-detail-max">
-            <h2>The Challenge</h2>
+            <h2>Project Overview</h2>
             <p>${p.challenge}</p>
           </div>
         </div>
@@ -281,7 +281,7 @@
       <section class="project-detail-section section-bg-gray">
         <div class="container">
           <div class="project-detail-max">
-            <h2>Our Approach</h2>
+            <h2>Project Center</h2>
             <p>${p.approach}</p>
           </div>
         </div>
@@ -291,7 +291,7 @@
       <section class="project-detail-section section-bg-white">
         <div class="container">
           <div class="project-detail-max">
-            <h2>Results &amp; Impact</h2>
+            <h2>Syndesis Contibution</h2>
             <ul class="results-list">
               ${p.results.map(r => `
                 <li class="result-item">
@@ -307,7 +307,7 @@
       <section class="project-detail-section section-bg-gray">
         <div class="container">
           <div class="project-detail-max">
-            <h2>Technologies &amp; Standards</h2>
+            <h2>Key Themes & Technologies</h2>
             <div class="tech-tags">
               ${p.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('')}
             </div>
@@ -319,7 +319,7 @@
       <section class="project-detail-section section-bg-white">
         <div class="container">
           <div class="project-detail-max">
-            <h2>Project Partners</h2>
+            <h2>Metadata</h2>
             <div class="partners-grid">
               ${p.partners.map(partner => `
                 <div class="partner-card">
