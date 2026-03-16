@@ -53,7 +53,8 @@ window.__PROJECTS__ = [
   "focus": "AI-assisted decision support for rural and remote healthcare delivery",
   "operationalEnvironments": "Rural general practice, low-connectivity medical settings, municipality-linked care environments",
   "validationSetting": "Pilot deployment in rural areas such as the Devetaki Plateau, in collaboration with local healthcare stakeholders.",
-  },
+  "publicLink": "https://smartera-project.eu/winners-of-the-first-open-call-selected/"
+ },
     "results": [
       "Development of AI-driven triage and prioritization workflows for rural healthcare settings",
       "Integration of LLM-based patient summarization from fragmented medical records",
