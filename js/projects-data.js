@@ -70,16 +70,16 @@ window.__PROJECTS__ = [
     ]
   },
   {
-    "id": "medihub",
-    "logo": "MH",
-    "title": "MediHub AI",
-    "summary": "Federated learning platform for multi-hospital clinical decision support, enabling privacy-preserving AI model training on distributed health data.",
-    "tags": ["Digital Health", "AI", "Privacy", "EU-funded"],
+    "id": "HarmoniQCI",
+    "logo": "HQCI",
+    "title": "HarmoniQCI",
+    "summary": "HarmoniQCI supports the standardisation of EuroQCI across telecommunications, security, and QKD systems, helping enable interoperable, secure, and scalable quantum communication infrastructures in Europe.",
+    "tags": ["QKD", "PQC", "Standards", "EuroQCI", "Secure Communications"],
     "role": "Partner",
     "status": "Ongoing",
-    "subtitle": "Federated Learning for Clinical Decision Support",
+    "subtitle": "Advancing standardisation for interoperable and secure European quantum communication infrastructures.",
     "funding": "Horizon 2020",
-    "duration": "2020\u20132023 (36 months)",
+    "duration": "2026 - 2029 (36 months)",
     "budget": "\u20ac5.1M",
     "challenge": "Hospitals hold vast amounts of patient data that could dramatically improve AI diagnostic models, but data privacy regulations prevent centralized aggregation. Traditional AI training requires pooling data in one place, creating privacy, legal, and security risks.",
     "approach": "MediHub AI implements a federated learning framework that trains AI models across multiple hospitals without sharing raw patient data. Each hospital trains locally and shares only encrypted model updates, which are aggregated into a global model. Differential privacy techniques add noise to prevent reconstruction of individual records.",
@@ -255,85 +255,7 @@ window.__PROJECTS__ = [
       {"title": "GDPR-Compliant Consent Management via Blockchain and ZKP", "venue": "Journal of Biomedical Informatics 2022", "link": "#"}
     ]
   },
-  {
-    "id": "edgevision",
-    "logo": "EV",
-    "title": "EdgeVision",
-    "summary": "Distributed computer vision pipeline for smart city surveillance with edge processing, reducing bandwidth and enabling real-time alerts.",
-    "tags": ["Edge", "AI", "IoT", "EU-funded"],
-    "role": "Partner",
-    "status": "Ongoing",
-    "subtitle": "Edge Computer Vision for Smart City Applications",
-    "funding": "Horizon 2020 \u2013 Smart Cities",
-    "duration": "2020\u20132023 (36 months)",
-    "budget": "\u20ac3.9M",
-    "challenge": "Smart city camera networks generate terabytes of video data that cannot be economically streamed to central servers for processing. Real-time incident response requires sub-second detection at scale.",
-    "approach": "EdgeVision deploys quantized deep learning models on edge-capable cameras and microservers. Only event-triggered metadata and short clips are transmitted to central systems, reducing bandwidth by 95%. Federated analytics allow insights to be aggregated without sharing raw video.",
-    "results": [
-      "95% bandwidth reduction compared to cloud-only approach",
-      "Person re-identification across 500+ cameras in pilot city",
-      "Real-time crowd density estimation with <200ms latency",
-      "Privacy-by-design: no raw biometric data leaves edge nodes",
-      "Deployed in 3 European smart city pilots"
-    ],
-    "technologies": ["YOLOv8 / MobileNet", "TensorFlow Lite", "OpenCV", "MQTT", "Kubernetes Edge", "Federated Analytics"],
-    "partners": ["City of Athens (Greece)", "City of Bologna (Italy)", "Huawei European Research Center (Germany)", "Aalborg University (Denmark)"],
-    "publications": [
-      {"title": "Privacy-Preserving Edge Video Analytics for Smart Cities", "venue": "IEEE Internet of Things Journal 2023", "link": "#"}
-    ]
-  },
-  {
-    "id": "quantumsafe",
-    "logo": "QS",
-    "title": "QuantumSafe Finance",
-    "summary": "Post-quantum cryptography implementation for financial transaction systems, ensuring long-term security for digital payments and banking.",
-    "tags": ["PQC", "Finance", "EU-funded"],
-    "role": "Partner",
-    "status": "Ongoing",
-    "subtitle": "Post-Quantum Security for Financial Systems",
-    "funding": "EIC Pathfinder",
-    "duration": "2021\u20132024 (36 months)",
-    "budget": "\u20ac6.0M",
-    "challenge": "Financial institutions process trillions of euros in transactions protected by RSA and ECDSA signatures that will become vulnerable to quantum attacks. Migration timelines of 10\u201315 years mean action must begin immediately.",
-    "approach": "QuantumSafe Finance integrates NIST-standardized PQC signature algorithms (CRYSTALS-Dilithium, SPHINCS+) into banking middleware and payment card infrastructure. A gradual migration approach maintains backward compatibility during the transition period.",
-    "results": [
-      "PQC digital signatures integrated into ISO 20022 payment messages",
-      "Performance benchmarks within 5% of classical algorithms on HSMs",
-      "Migration blueprint adopted by 2 European central banks",
-      "Open-source PQC payment SDK released",
-      "ETSI standards contribution for financial PQC profiles"
-    ],
-    "technologies": ["CRYSTALS-Dilithium", "SPHINCS+", "HSM Integration", "ISO 20022", "Java / C++", "FIPS 140-3"],
-    "partners": ["European Central Bank (EU)", "Deutsche Bundesbank (Germany)", "Mastercard Europe (Belgium)", "Thales DIS (France)"],
-    "publications": [
-      {"title": "Post-Quantum Digital Signatures in Financial Messaging Systems", "venue": "Financial Cryptography and Data Security 2024", "link": "#"}
-    ]
-  },
-  {
-    "id": "iotshield",
-    "logo": "IS",
-    "title": "IoT Shield",
-    "summary": "Lightweight security framework for resource-constrained IoT devices, featuring quantum-resistant authentication and secure firmware updates.",
-    "tags": ["IoT", "PQC", "Security", "EU-funded"],
-    "role": "Partner",
-    "status": "Ongoing",
-    "subtitle": "Quantum-Safe Security for Resource-Constrained IoT",
-    "funding": "Horizon Europe \u2013 IoT Security",
-    "duration": "2023\u20132026 (36 months)",
-    "budget": "\u20ac3.2M",
-    "challenge": "Billions of IoT devices with limited CPU, memory, and battery cannot run standard PQC algorithms. Long device lifetimes (10\u201320 years) mean they will be exposed to quantum threats long after deployment.",
-    "approach": "IoT Shield implements ultra-lightweight PQC primitives (CRYSTALS-Kyber and signature variants) optimized for ARM Cortex-M microcontrollers. A secure over-the-air firmware update mechanism allows algorithm agility across the device fleet as standards evolve.",
-    "results": [
-      "PQC key exchange running on 256KB RAM microcontrollers",
-      "OTA firmware update with cryptographic rollback protection",
-      "30% reduction in PQC cycle count vs. reference implementation",
-      "Certified under IEC 62443-4-2 Security Level 2",
-      "SDK adopted by 3 industrial IoT equipment manufacturers"
-    ],
-    "technologies": ["CRYSTALS-Kyber (lightweight)", "ARM Cortex-M", "FreeRTOS", "MQTT-SN", "Secure Boot", "IEC 62443"],
-    "partners": ["Infineon Technologies (Germany)", "IMEC (Belgium)", "Bosch IoT (Germany)", "University of Twente (Netherlands)"],
-    "publications": [
-      {"title": "Ultra-Lightweight PQC for Constrained IoT: Implementation and Benchmarks", "venue": "ACM SenSys 2024", "link": "#"}
-    ]
-  }
+  
+  
+  
 ];
