@@ -23,7 +23,7 @@ window.__PROJECTS__ = [
   "publicLink": "https://6gpath.eu/"
 },
     "results": [
-      "Development and integration of edge AI intelligence for robotic assistants",
+      "Development and integration of <strong>edge AI intelligence</strong> for robotic assistants",
       "Support for domain-specific multimodal datasets in hospitality and healthcare scenarios",
       "Research and integration of post-quantum and trusted communication mechanisms",
       "Deployment and validation of robotic workflows on a 5G/6G-enabled testbed",
