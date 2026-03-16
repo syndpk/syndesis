@@ -767,6 +767,13 @@ ul, ol { list-style: none; }
   margin-top: 30px;
   flex-wrap: wrap; /* allows stacking on small screens */
 }
+.project-context-block p {
+  margin-bottom: 0.75rem;
+}
+
+.project-context-block p strong {
+  color: var(--gray-900);
+}
 .news-link {
   font-weight: bold;
   color: #1a73e8;
