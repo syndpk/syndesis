@@ -315,6 +315,7 @@
         </div>
       </section>
 
+      /*
       <!-- Partners -->
       <section class="project-detail-section section-bg-white">
         <div class="container">
@@ -355,7 +356,7 @@
           </div>
         </div>
       </section>` : ''}
-
+*/
       <!-- CTA -->
       <section class="section section-bg-dark">
         <div class="container section-cta-dark">
