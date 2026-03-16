@@ -6,7 +6,8 @@
       "title": "EROS – 6GPath",
       "summary": "EROS develops trusted robotic assistants for hospitality, healthcare, and smart city environments by combining edge AI, domain-specific multimodal datasets, and quantum-safe communications on a 5G/6G testbed.",
       "tags": ["Edge AI", "Robotics", "5G / 6G", "PQC", "Service Hospitality"],
-      
+      "role": "Coordinator",
+      "status": "Ongoing",
       "subtitle": "Secure Edge AI Robotics for Smart City, Hospitality, and Healthcare Services",
       "funding": "Horizon Europe",
       "duration": "2024–2027 (36 months)",
