@@ -305,7 +305,6 @@
         </div>
       </section>
 
-<!-- Project Context -->
 <section class="project-detail-section section-bg-gray">
   <div class="container">
     <div class="project-detail-max">
@@ -313,14 +312,20 @@
       ${
         p.projectContext
           ? `
-            <p><strong>Project focus:</strong><br>${p.projectContext.focus || '—'}</p>
-            <p><strong>Operational environments:</strong><br>${p.projectContext.operationalEnvironments || '—'}</p>
-            <p><strong>Validation setting:</strong><br>${p.projectContext.validationSetting || '—'}</p>
-            ${
-              p.projectContext.publicLink
-                ? `<p><strong>Public link:</strong> <a href="${p.projectContext.publicLink}" target="_blank" rel="noopener noreferrer" class="news-link">${p.projectContext.publicLink}</a></p>`
-                : ''
-            }
+            <ul class="project-results-list">
+              <li><strong>Project focus:</strong> ${p.projectContext.focus || '—'}</li>
+              <li><strong>Operational environments:</strong> ${p.projectContext.operationalEnvironments || '—'}</li>
+              <li><strong>Validation setting:</strong> ${p.projectContext.validationSetting || '—'}</li>
+              ${
+                p.projectContext.publicLink
+                  ? `<li><strong>Public link:</strong> 
+                      <a href="${p.projectContext.publicLink}" target="_blank" rel="noopener noreferrer">
+                        ${p.projectContext.publicLink}
+                      </a>
+                    </li>`
+                  : ''
+              }
+            </ul>
           `
           : `<p>No project context available.</p>`
       }
