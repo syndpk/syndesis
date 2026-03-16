@@ -767,15 +767,15 @@ ul, ol { list-style: none; }
   margin-top: 30px;
   flex-wrap: wrap; /* allows stacking on small screens */
 }
-.container a {
+.news-link {
   font-weight: bold;
-  color: #1a73e8; /* default link color */
+  color: #1a73e8;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.container a:hover {
-  color: #d32f2f; /* color when hovering */
+.news-link:hover {
+  color: #d32f2f;
   text-decoration: underline;
 }
 .news-images-block img {
