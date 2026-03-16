@@ -16,7 +16,12 @@ window.__PROJECTS__ = [
     "duration": "02-10 / 2026 (9 months)",
     "budget": "\u20ac4.2M",
     "challenge": "EROS addresses the growing demand for intelligent service robots in environments such as municipal buildings, hospitals, transport hubs, and hotels. The project focuses on overcoming the limitations of cloud-only AI processing by combining edge-based intelligence, domain-specific multimodal datasets, and trusted communications, enabling robots to provide reliable, privacy-aware, and human-like services in real-world settings.",
-    "approach": "Secure and trustworthy robotic assistants for real-time service delivery.",
+          "projectContext": {
+  "focus": "Secure and trustworthy robotic assistants for real-time service delivery",
+  "operationalEnvironments": "Hospitals, hotels, municipal buildings, transport hubs, smart city scenarios",
+  "validationSetting": "OTE 5G/6G testbed in Athens with edge cloud, network slicing, and MEC capabilities",
+  "publicLink": "https://6gpath.eu/"
+},
     "results": [
       "Development and integration of edge AI intelligence for robotic assistants",
       "Support for domain-specific multimodal datasets in hospitality and healthcare scenarios",
