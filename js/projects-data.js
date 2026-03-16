@@ -31,7 +31,6 @@ window.__PROJECTS__ = [
     ],
     "technologies": ["Edge AI", "Robotics", "LLMs", "PQC", "5G/6G MEC", "Smart City", "Service Hospitality"],    
     "partners": ["Hospitals", "Hotels", "Municipal Buildings", "Transport Hubs", "Tsmart City Scenarios"],
-    "Validation setting": ["OTE 5G/6G testbed in Athens with edge cloud, network slicing and MEC capabilities"],
     "publications": [
       {"title": "EROS 6G PATH", "venue": "6G Pilots and Trials Through Europe", "https://6gpath.eu/ ": "#"},
      

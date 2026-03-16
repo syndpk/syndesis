@@ -312,7 +312,7 @@
       ${
         p.projectContext
           ? `
-            <ul class="project-results-list">
+            <ul class="results-list">
               <li><strong>Project focus:</strong> ${p.projectContext.focus || '—'}</li>
               <li><strong>Operational environments:</strong> ${p.projectContext.operationalEnvironments || '—'}</li>
               <li><strong>Validation setting:</strong> ${p.projectContext.validationSetting || '—'}</li>
