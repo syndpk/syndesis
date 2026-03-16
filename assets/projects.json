@@ -12,22 +12,22 @@
       "funding": "Horizon Europe",
       "duration": "2024–2027 (36 months)",
       "budget": "€4.2M",
-      "challenge": "Critical national infrastructure systems face increasing cybersecurity threats while requiring real-time processing capabilities. Traditional cloud-based security solutions introduce unacceptable latency for time-sensitive operations. Additionally, future quantum computers pose a significant threat to current cryptographic protections.",
+      "challenge": "EROS addresses the growing demand for intelligent service robots in environments such as municipal buildings, hospitals, transport hubs, and hotels. The project focuses on overcoming the limitations of cloud-only AI processing by combining edge-based intelligence, domain-specific multimodal datasets, and trusted communications, enabling robots to provide reliable, privacy-aware, and human-like services in real-world settings.",
       "approach": "SECANT develops a novel edge computing architecture that combines quantum-safe cryptography with AI-powered threat detection at the network edge. The platform deploys lightweight post-quantum cryptographic algorithms on edge nodes while maintaining real-time performance requirements. Machine learning models analyze traffic patterns locally to detect anomalies without transmitting sensitive data to centralized servers.",
       "results": [
-        "15% reduction in threat detection latency compared to cloud-based solutions",
-        "Successfully deployed PQC algorithms with <5ms performance overhead",
-        "AI models achieving 98.7% accuracy in detecting zero-day attacks",
-        "Pilot deployment across 12 critical infrastructure sites in 5 EU countries",
-        "3 patent applications filed for novel crypto-agile edge architectures"
+        "Development and integration of edge AI intelligence for robotic assistants",
+        "Support for domain-specific multimodal datasets in hospitality and healthcare scenarios",
+        "Research and integration of post-quantum and trusted communication mechanisms",
+        "Deployment and validation of robotic workflows on a 5G/6G-enabled testbed",
+        "Contribution to secure, low-latency, real-time human–robot interaction use cases"
       ],
       "technologies": [
-        "Post-Quantum Cryptography (NIST PQC)",
-        "Edge AI & Machine Learning",
-        "Kubernetes Edge Orchestration",
-        "Hardware Security Modules",
-        "MQTT & Secure Messaging",
-        "TensorFlow Lite"
+        "Edge AI",
+        "Robotics, LLMs",
+        "PQC",
+        "5G/6G MEC",
+        "Smart City",
+        "Service Hospitality"
       ],
       "partners": [
         "NCSR Demokritos (Greece)",

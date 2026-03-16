@@ -281,7 +281,7 @@
       <section class="project-detail-section section-bg-gray">
         <div class="container">
           <div class="project-detail-max">
-            <h2>Project Center</h2>
+            <h2>Project Context</h2>
             <p>${p.approach}</p>
           </div>
         </div>
