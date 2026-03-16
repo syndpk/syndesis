@@ -49,7 +49,11 @@ window.__PROJECTS__ = [
     "duration": "03-12/2026 (10 months)",
     "budget": "\u20ac8.5M",
     "challenge": "RuralMed-AI addresses a key challenge in Europe’s rural and remote regions: supporting general practitioners who work with limited connectivity, high workloads, and fragmented patient information. Building on Syndesis’ iWelli healthcare ecosystem and the EdgeMind AI platform, the pilot develops an AI-powered decision-support system tailored to healthcare environments where connectivity, continuity of care, and data sovereignty are critical.",
-    
+          "projectContext": {
+  "focus": "AI-assisted decision support for rural and remote healthcare delivery",
+  "operationalEnvironments": "Rural general practice, low-connectivity medical settings, municipality-linked care environments",
+  "validationSetting": "Pilot deployment in rural areas such as the Devetaki Plateau, in collaboration with local healthcare stakeholders.",
+  },
     "results": [
       "Development of AI-driven triage and prioritization workflows for rural healthcare settings",
       "Integration of LLM-based patient summarization from fragmented medical records",
