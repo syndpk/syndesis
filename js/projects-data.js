@@ -7,7 +7,7 @@ window.__PROJECTS__ = [
     "id": "EROS – 6GPath",
     "logo": "EROS",
     "title": "EROS – 6GPath",
-    "summary": "Antonis EROS develops trusted robotic assistants for hospitality, healthcare, and smart city environments by combining edge AI, domain-specific multimodal datasets, and quantum-safe communications on a 5G/6G testbed.",
+    "summary": "EROS develops trusted robotic assistants for hospitality, healthcare, and smart city environments by combining edge AI, domain-specific multimodal datasets, and quantum-safe communications on a 5G/6G testbed.",
     "tags": ["Edge AI", "Robotics", "5G/6G","PQC", "Service Hospitality"],
     "role": "Partner",
     "status": "Ongoing",
