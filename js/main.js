@@ -305,15 +305,28 @@
         </div>
       </section>
 
-      <!-- Approach -->
-      <section class="project-detail-section section-bg-gray">
-        <div class="container">
-          <div class="project-detail-max">
-            <h2>Project Context</h2>
-            <p>${p.approach}</p>
-          </div>
-        </div>
-      </section>
+<!-- Project Context -->
+<section class="project-detail-section section-bg-gray">
+  <div class="container">
+    <div class="project-detail-max">
+      <h2>Project Context</h2>
+      ${
+        p.projectContext
+          ? `
+            <p><strong>Project focus:</strong><br>${p.projectContext.focus || '—'}</p>
+            <p><strong>Operational environments:</strong><br>${p.projectContext.operationalEnvironments || '—'}</p>
+            <p><strong>Validation setting:</strong><br>${p.projectContext.validationSetting || '—'}</p>
+            ${
+              p.projectContext.publicLink
+                ? `<p><strong>Public link:</strong> <a href="${p.projectContext.publicLink}" target="_blank" rel="noopener noreferrer" class="news-link">${p.projectContext.publicLink}</a></p>`
+                : ''
+            }
+          `
+          : `<p>No project context available.</p>`
+      }
+    </div>
+  </div>
+</section>
 
       <!-- CTA -->
       <section class="section section-bg-dark">
