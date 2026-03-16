@@ -24,8 +24,8 @@ window.__PROJECTS__ = [
 },
     "results": [
       "Development and integration of <strong>edge AI intelligence</strong> for robotic assistants",
-      "Support for domain-specific multimodal datasets in hospitality and healthcare scenarios",
-      "Research and integration of post-quantum and trusted communication mechanisms",
+      "Support for <strong>domain-specific multimodal datasets</strong> in hospitality and healthcare scenarios",
+      "Research and integration of <strong>post-quantum and trusted communication mechanisms</strong>",
       "Deployment and validation of robotic workflows on a 5G/6G-enabled testbed",
       "Contribution to secure, low-latency, real-time human–robot interaction use cases"
     ],
