@@ -747,7 +747,11 @@ ul, ol { list-style: none; }
    NEWS PAGE
    ===================================================================== */
 .news-grid {
-  display: grid; grid-template-columns: 1fr; gap: 2rem;
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+
 }
 @media (min-width: 768px) {
   .news-grid { grid-template-columns: repeat(2, 1fr); }
@@ -786,6 +790,8 @@ ul, ol { list-style: none; }
 }
 .news-read-more:hover { color: var(--teal-600); }
 .news-read-more svg { width: 16px; height: 16px; }
+
+
 
 /* =====================================================================
    ABOUT PAGE
