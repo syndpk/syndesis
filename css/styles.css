@@ -767,7 +767,17 @@ ul, ol { list-style: none; }
   margin-top: 30px;
   flex-wrap: wrap; /* allows stacking on small screens */
 }
+.container a {
+  font-weight: bold;
+  color: #1a73e8; /* default link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
+.container a:hover {
+  color: #d32f2f; /* color when hovering */
+  text-decoration: underline;
+}
 .news-images-block img {
   width: 420px;          /* same width for both images */
   max-width: 100%;
