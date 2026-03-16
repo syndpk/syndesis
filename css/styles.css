@@ -987,7 +987,7 @@ ul, ol { list-style: none; }
 .project-detail-section p { font-size: 1.125rem; color: var(--gray-700); line-height: 1.7; }
 .project-detail-max { max-width: 56rem; }
 
-.results-list { display: flex; flex-direction: column; gap: 1rem; }
+.results-list { display: flex; flex-direction: column; gap: 1rem;font-size: 1.125rem;}
 .result-item { display: flex; align-items: flex-start; gap: 1rem; }
 .result-item svg { color: var(--teal-600); margin-top: 0.25rem; flex-shrink: 0; width: 24px; height: 24px; }
 .result-item span { font-size: 1.125rem; color: var(--gray-700); }
