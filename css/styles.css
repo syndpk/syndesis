@@ -697,6 +697,12 @@ ul, ol { list-style: none; }
 .step-title { font-weight: 700; color: var(--gray-900); margin-bottom: 0.25rem; }
 .step-desc { font-size: 0.875rem; color: var(--gray-600); }
 
+.expertise-visual-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* =====================================================================
    PRODUCTS PAGE
    ===================================================================== */
