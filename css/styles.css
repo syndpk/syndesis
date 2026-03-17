@@ -643,10 +643,19 @@ ul, ol { list-style: none; }
 }
 .expertise-visual-inner { text-align: center; }
 .expertise-visual-icon {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 8rem; height: 8rem;
-  background: var(--white); border-radius: 50%; box-shadow: var(--shadow-lg);
-  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.expertise-visual-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .expertise-visual-icon svg { width: 48px; height: 48px; color: var(--blue-900); }
 .expertise-visual-caption { color: var(--gray-600); font-weight: 600; }
@@ -697,11 +706,7 @@ ul, ol { list-style: none; }
 .step-title { font-weight: 700; color: var(--gray-900); margin-bottom: 0.25rem; }
 .step-desc { font-size: 0.875rem; color: var(--gray-600); }
 
-.expertise-visual-icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 
 /* =====================================================================
    PRODUCTS PAGE
