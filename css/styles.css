@@ -635,8 +635,7 @@ ul, ol { list-style: none; }
   border-radius: var(--radius-full);
 }
 .expertise-visual {
-  background: linear-gradient(135deg, var(--blue-50), var(--teal-50));
-  border: 1px solid var(--blue-100);
+  
   border-radius: var(--radius-xl);
   min-height: 25rem;
   display: flex; align-items: center; justify-content: center;
