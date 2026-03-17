@@ -237,7 +237,7 @@
         <div class="hero-blobs"><div class="hero-blob-1"></div><div class="hero-blob-2"></div></div>
         <div class="container">
           <div class="hero-inner">
-            <a href="projects.html" class="hero-back">${icons.arrowLeft} Back to Projects</a>
+            <a href="syndesis-projects.html" class="hero-back">${icons.arrowLeft} Back to Projects</a>
             <div class="project-hero-layout">
               <div class="project-hero-logo">${p.logo}</div>
               <div style="flex-grow:1">
@@ -354,7 +354,7 @@
         <div class="container" style="text-align:center;padding:5rem 0">
           <h2 style="font-size:2rem;color:var(--gray-900);margin-bottom:1rem">Project not found</h2>
           <p style="color:var(--gray-600);margin-bottom:2rem">No project with ID "<strong>${requestedId}</strong>" exists.</p>
-          <a href="projects.html" class="btn btn-primary">Back to Projects</a>
+          <a href="syndesis-projects.html" class="btn btn-primary">Back to Projects</a>
         </div>
       </section>`;
   }
