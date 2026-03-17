@@ -178,7 +178,7 @@
   if (!root) return;
 
   const params = new URLSearchParams(location.search);
-  const id = params.get('id') || 'secant';
+ // const id = params.get('id') || 'secant';
 
   // SVGs
   const icons = {
