@@ -1271,3 +1271,11 @@ ul, ol { list-style: none; }
 }
 .skip-link:focus { left: 1rem; }
 
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+}
