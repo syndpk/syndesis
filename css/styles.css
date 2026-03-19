@@ -1270,28 +1270,4 @@ ul, ol { list-style: none; }
   font-weight: 600; z-index: 100;
 }
 .skip-link:focus { left: 1rem; }
-.news-flex {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap; /* makes it responsive */
-}
 
-.news-image img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.news-image {
-  flex: 1 1 40%;
-}
-
-.news-content {
-  flex: 1 1 60%;
-}
-
-.news-link {
-  display: inline-block;
-  margin-top: 1rem;
-}
