@@ -1270,12 +1270,3 @@ ul, ol { list-style: none; }
   font-weight: 600; z-index: 100;
 }
 .skip-link:focus { left: 1rem; }
-
-.container {
-  display: flex;
-  gap: 20px;
-}
-
-.box {
-  flex: 1;
-}
